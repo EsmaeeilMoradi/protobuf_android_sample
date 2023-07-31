@@ -13,13 +13,13 @@ dependencies {
 protobuf {
     protoc {
         // You still need protoc like in the non-Android case
-        artifact = 'com.google.protobuf:protoc:3.0.0'
+        artifact = 'com.google.protobuf:protoc:3.0.1'
     }
 
     plugins {
         javalite {
             // The codegen for lite comes as a separate artifact
-            artifact = 'com.google.protobuf:protoc-gen-javalite:3.0.0'
+            artifact = 'com.google.protobuf:protoc-gen-javalite:3.0.1'
         }
     }
 
@@ -36,3 +36,5 @@ protobuf {
         }
     }
 }
+
+
